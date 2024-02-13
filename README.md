@@ -5,6 +5,10 @@ Python を用いたシングルセル RNA-seq 解析。
 https://github.com/genome-sci/python_bioinfo_2023
 2-3の続き。
 
+1. Cell typeのアノテーション（マニュアル、自動）
+2. リファレンスアトラスとの統合解析
+3. RNA Velocity
+
 ### 手順
 
 ```
@@ -23,3 +27,5 @@ mv retinal.h5ad ./data
 jupyter notebook
 ```
 
+### Dockerによる実行
+https://github.com/genome-sci/python_bioinfo_2023 で構築した pags:2023 イメージで実行可能。
