@@ -27,5 +27,5 @@ mv retinal.h5ad ./data
 jupyter notebook
 ```
 
-### Dockerによる実行
+### Dockerによる実行 (amd64のみ)
 https://github.com/genome-sci/python_bioinfo_2023 で構築した pags:2023 イメージで実行可能。
