@@ -18,8 +18,10 @@ git clone https://github.com/khigashi1987/scRNAseq_handson_2023.git
 cd scRNAseq_handson_2023/
 
 # データファイル取得
-wget http://palaeo.nig.ac.jp/Resources/PAGSTutorial2023/retinal.h5ad
-（あるいは上記リンクにアクセスしてファイルをダウンロード）
+ウェブブラウザで
+https://drive.google.com/uc?export=download&id=1ciXMTLSdbkZIRyo8_TZLZjewpGjU9EOB
+にアクセスしてファイルをダウンロードする。
+（上記リンクから取得できない場合は以下からもダウンロード可能： http://palaeo.nig.ac.jp/Resources/PAGSTutorial2023/retinal.h5ad）
 mv retinal.h5ad ./data
 （ダウンロードしたretinal.h5adは、scRNAseq_handson_2023/data内に配置してください）
 
