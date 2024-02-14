@@ -31,3 +31,13 @@ jupyter notebook
 
 ### Dockerによる実行 (amd64のみ)
 https://github.com/genome-sci/python_bioinfo_2023 で構築した pags:2023 イメージで実行可能。
+
+```
+# 上記手順
+git clone https://github.com/khigashi1987/scRNAseq_handson_2023.git
+cd scRNAseq_handson_2023/
+# ファイルのダウンロードと data への配置
+# を実行した後、自分が scRNAseq_handson_2023 にいることを確認して、以下を実行
+docker run -it --rm -v $PWD:/python_bioinfo_2023 -p 8888:8888 pags:2023
+# ウェブブラウザから http://localhost:8888 を開く
+```
