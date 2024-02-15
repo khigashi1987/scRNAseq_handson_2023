@@ -3,3 +3,4 @@
 .ipynb_checkpoints/
 cache/
 data/retinal.h5ad
+ref_data/
